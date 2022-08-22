@@ -16,4 +16,4 @@ An analysis of AirBnB data for selected Hawaiian Islands to facilitate decision 
 4. Visualizations - Tableau, Wordcloud
 
 
-
+## Results
