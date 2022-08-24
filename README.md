@@ -17,3 +17,8 @@ An analysis of AirBnB data for selected Hawaiian Islands to facilitate decision 
 
 
 ## Results
+
+
+
+## ML Model Diagram
+![ML_diagram](https://user-images.githubusercontent.com/102084269/186306268-c0643af7-7124-4ae7-a29f-c00225032c66.png)
