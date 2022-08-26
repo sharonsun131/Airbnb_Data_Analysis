@@ -29,6 +29,29 @@ We worked on the project as a group during class, and keep updated the status of
 
 ## Results
 
+* Which neighborhoods have the most rental properties, and which neighborhoods generate the most revenue?
+
+  Primary urban center are the most rental properties, as well as Lahaina and Kihei-Makena areas. 
+  
+![neighbourhoods](https://user-images.githubusercontent.com/102264298/186802324-d686e9e2-ad33-4333-b241-1cc350ad1d2b.png)
+
+* Which property/room type is booked most often?
+
+  From the pie chart, it shows that the entire home/apt is the most often booked room type. 
+  
+![room_type](https://user-images.githubusercontent.com/102264298/186802332-7e835d95-4502-44d6-a80c-f00d191087a4.png)
+
+* What are the most influential factors (amenities) for drawing rentals and commanding a higher pricepoint?
+  
+  From the wordcloud picture, it shows that hot water, long-term stay, free parking, smoke alarm, are most influential amenities when customers seeking a rental home.   
+  
+![amenities_wordcloud](https://user-images.githubusercontent.com/102264298/186802347-52045096-ef60-4d07-917d-b4636caab7f3.png)
+
+* When is the peak season for rentals, and when can maintenance and repairs be performed?
+
+  From the bar chart, we can see that there is not significant difference between each month. As a result, Hawaii is good for rental all year around.  Maintenance  and repaires can be performed in Febuary. 
+
+![month booking](https://user-images.githubusercontent.com/102264298/186802318-f3fba198-1726-42ae-a0c9-59424b0c1244.png)
 
 
 ## ML Model Diagram
