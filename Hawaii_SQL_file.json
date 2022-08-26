@@ -1,0 +1,38 @@
+{
+    "Servers": {
+        "1": {
+            "Name": "PostgreSQL 14",
+            "Group": "Servers",
+            "Host": "localhost",
+            "Port": 5432,
+            "MaintenanceDB": "postgres",
+            "Username": "postgres",
+            "SSLMode": "prefer",
+            "Comment": "Auto-detected PostgreSQL 14 installation with the data directory at C:\\Program Files\\PostgreSQL\\14\\data"
+        },
+        "2": {
+            "Name": "PostgreSQL 12",
+            "Group": "Servers",
+            "Host": "localhost",
+            "Port": 5433,
+            "MaintenanceDB": "postgres",
+            "Username": "postgres",
+            "SSLMode": "prefer",
+            "Comment": "Auto-detected PostgreSQL 12 installation with the data directory at C:\\Program Files\\PostgreSQL\\12\\data"
+        },
+        "3": {
+            "Name": "hawaii-airbnb",
+            "Group": "Servers",
+            "Host": "hawaii-airbnb.c5hzvxbldmyx.us-east-1.rds.amazonaws.com",
+            "Port": 5432,
+            "MaintenanceDB": "postgres",
+            "Username": "postgres",
+            "SSLMode": "prefer",
+            "SSLCompression": 0,
+            "Timeout": 10,
+            "UseSSHTunnel": 0,
+            "TunnelPort": "22",
+            "TunnelAuthentication": 0
+        }
+    }
+}
