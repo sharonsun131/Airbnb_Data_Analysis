@@ -56,3 +56,24 @@ We worked on the project as a group during class, and updated the status of the 
 
 ## ML Model Diagram
 ![ML_diagram](https://user-images.githubusercontent.com/102084269/186306268-c0643af7-7124-4ae7-a29f-c00225032c66.png)
+
+## ML Overview
+Regression model with "Price" as the target.  Features include Bedrooms, Number of Reviews, Review Scores Rating, Availability, Neighborhood Group, Neighborhood, and Rental Type.
+![Screen Shot 2022-08-27 at 5 43 15 PM](https://user-images.githubusercontent.com/98665941/187050523-a44f4dc7-a646-4f13-bb8d-0b9dbcca0de9.png)
+
+Scaled data and utilized PCA
+
+![Screen Shot 2022-08-27 at 5 46 55 PM](https://user-images.githubusercontent.com/98665941/187050590-209dca57-867a-4817-952d-ee5160d4cf3e.png)
+
+Determined K clusters of 4 with an Elbow Curve
+
+![Screen Shot 2022-08-27 at 5 49 37 PM](https://user-images.githubusercontent.com/98665941/187050636-349f0749-d9ff-4bcb-824d-6174d08b2b8b.png)
+
+Predicted clusters and added predicted classes
+
+![Screen Shot 2022-08-27 at 6 12 03 PM](https://user-images.githubusercontent.com/98665941/187051067-407b20a1-234f-4c50-94e5-c95c3ed91f38.png)
+
+![Screen Shot 2022-08-27 at 6 15 51 PM](https://user-images.githubusercontent.com/98665941/187051159-9f2c371f-a9e2-4a36-bcf8-2d16a74e5fb6.png)
+
+
+
