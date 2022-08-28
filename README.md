@@ -2,7 +2,7 @@
 
 # Hawaii_Airbnb_Data_Analysis
 ## Why invest in Aribnb Hawaii
-Hawaii is one of the most popular traveler destinations in the United States. According to Hawaii's Department of Business, Economic Development and Tourism(DBEDT), the Hawaii State received a total of 842,927 visitors during the month of June 2022. Tourism plays a significant role in the Hawaii's economy. Investing in Airbnb Hawaii becomes a financial gain for a lot of residents and non-residents. There are more and more people considering purchasing a second house or investment property to rent out to tourists as an Airbnb business.  
+Hawaii is one of the premiere destinations on the Planet. According to Hawaii's Department of Business, Economic Development and Tourism(DBEDT), the State of Hawaii received a total of 842,927 visitors during the month of June 2022. Tourism plays a significant role in the Hawaii's economy and investing in Airbnb Hawaii can be a financial windfall for residents and non-residents alike. There are more and more people considering purchasing a second house or investment property to rent out to tourists as an Airbnb business.  
 
 ## Overview
 The purpose of this analysis is to facilitate decision making on consideration for running a short term rental property in the area.  Short term rentals offer a unique alternative to traditional hotel/motel stays and present the opportunity for a property owner to generate income from an otherwise unoccupied residence or room.  Utilizing several datasets taken from Inside Airbnb (http://insideairbnb.com/get-the-data) for Hawaii, the goal is to answer several questions pertinent to entry into the short term rental business model.
@@ -20,7 +20,7 @@ The purpose of this analysis is to facilitate decision making on consideration f
 4. Visualizations - Tableau, Wordcloud
 
 ### Communication protocols:
-We worked on the project as a group during class, and keep updated the status of the project through Slack and weekend zoom meetups. 
+We worked on the project as a group during class, and updated the status of the project through Slack and weekend zoom meetups. 
 #### Team member role: 
 * Ryan: Created the flowchart for the Machine Learning Model, generated a wordcloud for reviews, edit the README.
 * James: Cleaned the inicial CSV file and created wordcloud and neiborhood notebook, and edit the README.
@@ -31,13 +31,13 @@ We worked on the project as a group during class, and keep updated the status of
 
 * Which neighborhoods have the most rental properties, and which neighborhoods generate the most revenue?
 
-  Primary urban center are the most rental properties, as well as Lahaina and Kihei-Makena areas. 
+  Primary Urban Center contains the most rental properties, followed by Lahaina and Kihei-Makena areas. 
   
 ![neighbourhoods](https://user-images.githubusercontent.com/102264298/186802324-d686e9e2-ad33-4333-b241-1cc350ad1d2b.png)
 
 * Which property/room type is booked most often?
 
-  From the pie chart, it shows that the entire home/apt is the most often booked room type. 
+  Entire home/apt is the most often booked room type. 
   
 ![room_type](https://user-images.githubusercontent.com/102264298/186802332-7e835d95-4502-44d6-a80c-f00d191087a4.png)
 
@@ -49,10 +49,31 @@ We worked on the project as a group during class, and keep updated the status of
 
 * When is the peak season for rentals, and when can maintenance and repairs be performed?
 
-  From the bar chart, we can see that there is not significant difference between each month. As a result, Hawaii is good for rental all year around.  Maintenance  and repaires can be performed in Febuary. 
+  From the bar chart, we can see that there is not significant difference between each month. As a result, Hawaii is good for rental all year around.  Maintenance  and repairs can be performed in February. 
 
 ![month booking](https://user-images.githubusercontent.com/102264298/186802318-f3fba198-1726-42ae-a0c9-59424b0c1244.png)
 
 
 ## ML Model Diagram
 ![ML_diagram](https://user-images.githubusercontent.com/102084269/186306268-c0643af7-7124-4ae7-a29f-c00225032c66.png)
+
+## ML Overview
+Regression model with "Price" as the target.  Features include Bedrooms, Number of Reviews, Review Scores Rating, Availability, Neighborhood Group, Neighborhood, and Rental Type.
+![Screen Shot 2022-08-27 at 5 43 15 PM](https://user-images.githubusercontent.com/98665941/187050523-a44f4dc7-a646-4f13-bb8d-0b9dbcca0de9.png)
+
+Scaled data and utilized PCA
+
+![Screen Shot 2022-08-27 at 5 46 55 PM](https://user-images.githubusercontent.com/98665941/187050590-209dca57-867a-4817-952d-ee5160d4cf3e.png)
+
+Determined K clusters of 4 with an Elbow Curve
+
+![Screen Shot 2022-08-27 at 5 49 37 PM](https://user-images.githubusercontent.com/98665941/187050636-349f0749-d9ff-4bcb-824d-6174d08b2b8b.png)
+
+Predicted clusters and added predicted classes
+
+![Screen Shot 2022-08-27 at 6 12 03 PM](https://user-images.githubusercontent.com/98665941/187051067-407b20a1-234f-4c50-94e5-c95c3ed91f38.png)
+
+![Screen Shot 2022-08-27 at 6 15 51 PM](https://user-images.githubusercontent.com/98665941/187051159-9f2c371f-a9e2-4a36-bcf8-2d16a74e5fb6.png)
+
+
+
