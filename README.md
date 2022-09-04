@@ -27,6 +27,31 @@ We worked on the project as a group during class, and updated the status of the 
 * John: Stored the database in SQL and created tables in PGAdmin using CSVs and edit the README.
 * Sharon: Created github branch for each team member and cleaned the dataframe, converted approriate datatype and edit the README.
 
+### External Links
+Interactive Tableau Dashboard: https://public.tableau.com/authoring/hawaii_airbnb/HawaiiAirbnb#1
+Presentation Slides: https://docs.google.com/presentation/d/1k1sqCg5IGoMQEcSsKaAKfR8khjJH_nL3eLUeeSi4Bgk/edit?usp=sharing
+
+### Data Exploration
+* Raw data from four csv files and one geoJSON file from the Inside Airbnb source
+  * Listings.csv.gz with Detailed Listings data
+  * Calendar.csv.gz with Detailed Calendar data
+  * Reviews.csv.gz with Detailed Review data
+  * Neighbourhoods.csv as a list for geo filter sourced from open source GIS files
+  * Neighbourhoods.geojson as a GeoJSON file of selected neighborhoods
+* Utilized Pandas with Jupyter Notebook to clean and preprocess data
+  * Dropped repetitive and non-contextual columns
+  * Replaced or eliminated null values
+  * Generated csv files from the cleaned DataFrames
+  * Imported csv files to PGAdmin to populate tables for SQL 
+
+### Data Analysis
+* Plotted GeoJSON file with geopandas
+  * Plotted scatter of listings on top with lat/long
+* Grouped neighborhoods and plotted bar chart of most popular neighborhoods in bar chart
+* Grouped room types and plotted pie chart of most popular room types
+* Generated word clouds of amenities listings and review mentions frequency
+* Grouped reviews by month with count to plot bar chart of bookings per month
+
 ## Results
 
 * Which neighborhoods have the most rental properties, and which neighborhoods generate the most revenue?
