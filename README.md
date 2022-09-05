@@ -19,20 +19,18 @@ The purpose of this analysis is to facilitate decision making on consideration f
 3. Modeling and Learning - Simple Linear Regression
 4. Visualizations - Tableau, Wordcloud
 
-### Communication protocols:
-We worked on the project as a group during class, and updated the status of the project through Slack and weekend zoom meetups. 
-#### Team member role: 
-* Ryan: Created the flowchart for the Machine Learning Model, generated a wordcloud for reviews, edit the README.
-* James: Cleaned the inicial CSV file and created wordcloud and neiborhood notebook, and edit the README.
-* John: Stored the database in SQL and created tables in PGAdmin using CSVs and edit the README.
-* Sharon: Created github branch for each team member and cleaned the dataframe, converted approriate datatype and edit the README.
-
 ### External Links
+
+[Interactive Tableau Dashboard](https://public.tableau.com/authoring/hawaii_airbnb/HawaiiAirbnb#1)
+
+[Link to Google Slides](https://docs.google.com/presentation/d/1k1sqCg5IGoMQEcSsKaAKfR8khjJH_nL3eLUeeSi4Bgk/edit?usp=sharing)
+
 [Interactive Tableau Dashboard1](https://public.tableau.com/authoring/hawaii_airbnb/HawaiiAirbnb#1)
 
 [Interactive Tableau Dashboard2](https://public.tableau.com/app/profile/sharon3357/viz/HawaiiAirbnb_16623379982290/HawaiiAirbnb)
 
 [Presentation Slides](https://docs.google.com/presentation/d/1k1sqCg5IGoMQEcSsKaAKfR8khjJH_nL3eLUeeSi4Bgk/edit?usp=sharing)
+
 
 ### Data Exploration
 * Raw data from four csv files and one geoJSON file from the Inside Airbnb source
