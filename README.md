@@ -28,8 +28,11 @@ We worked on the project as a group during class, and updated the status of the 
 * Sharon: Created github branch for each team member and cleaned the dataframe, converted approriate datatype and edit the README.
 
 ### External Links
-Interactive Tableau Dashboard: https://public.tableau.com/authoring/hawaii_airbnb/HawaiiAirbnb#1
-Presentation Slides: https://docs.google.com/presentation/d/1k1sqCg5IGoMQEcSsKaAKfR8khjJH_nL3eLUeeSi4Bgk/edit?usp=sharing
+[Interactive Tableau Dashboard1](https://public.tableau.com/authoring/hawaii_airbnb/HawaiiAirbnb#1)
+
+[Interactive Tableau Dashboard2](https://public.tableau.com/app/profile/sharon3357/viz/HawaiiAirbnb_16623379982290/HawaiiAirbnb)
+
+[Presentation Slides](https://docs.google.com/presentation/d/1k1sqCg5IGoMQEcSsKaAKfR8khjJH_nL3eLUeeSi4Bgk/edit?usp=sharing)
 
 ### Data Exploration
 * Raw data from four csv files and one geoJSON file from the Inside Airbnb source
