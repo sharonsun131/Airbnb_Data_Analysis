@@ -97,5 +97,19 @@ Predicted clusters and added predicted classes
 
 ![Screen Shot 2022-08-27 at 6 15 51 PM](https://user-images.githubusercontent.com/98665941/187051159-9f2c371f-a9e2-4a36-bcf8-2d16a74e5fb6.png)
 
+Heat Map:
+
+![Screen Shot 2022-09-06 at 7 22 12 PM](https://user-images.githubusercontent.com/98665941/189244303-1ff29e76-eb8e-48e8-b7a7-d798bed0d706.png)
+
+
+
+Conclusion:
+
+Our project sought to suss out features from the data that would point us in the right direction for our first Airbnb property to open in Hawaii. We wanted to determine the best property type, island, and neighborhood to command a good price point for our nightly rental rates that wouldn’t leave our new revenue source sitting unoccupied. Unfortunately, despite the wealth of data available from our source, our model showed little to no correlation between those features and the price per night. Outside of the model, though, we were able to see that the Lahaina neighborhood on the Island of Maui ranked in the top four neighborhoods for bookings based on availability at 155 days, had the third most reviews with over 74k and commanded the highest average price per room/per night at $495.70. Considering a better analysis, we would like to attempt the following:
+* Bin and quantify unique amenities
+* Utilize regex to further delineate property types such as mansion, condo, apartment, house etc.
+* Determine market saturation
+* Explore regulations prohibitive to entry to the short term rental market
+
 
 
